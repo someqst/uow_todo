@@ -1,0 +1,23 @@
+2025-03-29T01:44:46.750681+0300 ERROR [TypeError("'coroutine' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')]
+
+2025-03-29T01:45:41.519795+0300 ERROR 'ToDoService' object has no attribute 'get_todos_filter'
+
+2025-03-29T01:45:59.837353+0300 ERROR [TypeError("'coroutine' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')]
+
+2025-03-29T01:54:59.573478+0300 ERROR 5 validation errors for ToDoFromDB
+id
+  Error extracting attribute: MissingGreenlet: greenlet_spawn has not been called; can't call await_only() here. Was IO attempted in an unexpected place? (Background on this error at: https://sqlalche.me/e/20/xd2s) [type=get_attribute_error, input_value=<src.database.model.Tasks...t at 0x000002948EDB3DA0>, input_type=Tasks]
+    For further information visit https://errors.pydantic.dev/2.10/v/get_attribute_error
+title
+  Error extracting attribute: MissingGreenlet: greenlet_spawn has not been called; can't call await_only() here. Was IO attempted in an unexpected place? (Background on this error at: https://sqlalche.me/e/20/xd2s) [type=get_attribute_error, input_value=<src.database.model.Tasks...t at 0x000002948EDB3DA0>, input_type=Tasks]
+    For further information visit https://errors.pydantic.dev/2.10/v/get_attribute_error
+description
+  Error extracting attribute: MissingGreenlet: greenlet_spawn has not been called; can't call await_only() here. Was IO attempted in an unexpected place? (Background on this error at: https://sqlalche.me/e/20/xd2s) [type=get_attribute_error, input_value=<src.database.model.Tasks...t at 0x000002948EDB3DA0>, input_type=Tasks]
+    For further information visit https://errors.pydantic.dev/2.10/v/get_attribute_error
+status
+  Error extracting attribute: MissingGreenlet: greenlet_spawn has not been called; can't call await_only() here. Was IO attempted in an unexpected place? (Background on this error at: https://sqlalche.me/e/20/xd2s) [type=get_attribute_error, input_value=<src.database.model.Tasks...t at 0x000002948EDB3DA0>, input_type=Tasks]
+    For further information visit https://errors.pydantic.dev/2.10/v/get_attribute_error
+creation_time
+  Error extracting attribute: MissingGreenlet: greenlet_spawn has not been called; can't call await_only() here. Was IO attempted in an unexpected place? (Background on this error at: https://sqlalche.me/e/20/xd2s) [type=get_attribute_error, input_value=<src.database.model.Tasks...t at 0x000002948EDB3DA0>, input_type=Tasks]
+    For further information visit https://errors.pydantic.dev/2.10/v/get_attribute_error
+
